@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <title>Raffle</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+            
+                <a href="../../index.html">Home</a>
+                <a href="../pages/aboutUs.html">About us</a>
+                <a href="../pages/contact.html">Contact</a>
+                <a href="../pages/information.html">Information</a>
+                <a href="../pages/benefitsTips.html">Benefits</a>
+                <a href="#">Raffle</a>
+                
+            </nav>
+        </div>
+       
+        <div>
+            <img src="../images/logo.png" alt="logo" class="logo">
+        </div>
+    </header>
+    <main>
+        <div class="contenedor">
+            
+        
+        <div class="mapa">
+            <h2 class="txt2">Raffle</h2>
+            <p class="txt2">You can collaborate and particape in a raffle for a 1-week trip.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.90977188834!2d-79.5428688590765!3d43.71837095831823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sco!4v1687453089528!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form action="../pages/show_data.html" method="get"> 
+            <label for="name">First name</label>
+            <input type="text" id="name" name="first-name">
+            
+            <label for="surname">Last name</label>
+            <input type="text" id="surname" name="last-name">
+
+            <label for="name">E-mail</label>
+            <input type="email" id="name" name="e-mail">
+
+            <label for="chosen country">Choose country</label>
+            <select name="coumtry" id="chosen-country">
+                <option value=" ">--Select an option</option>
+                <option value="selection-united states">United States</option>
+                <option value="selection-canada">Canada</option>
+                <option value="selection-england">England</option>
+                <option value="selection-mexico">Mexico</option>
+            </select>
+            <label for="chosen-date">Choose date</label>
+            <input type="date" name="chosen-date" id="chosen-date">
+
+            <p>Payment options</p>
+           <div class="container">
+            <div class="input-label">
+                <label for="Cash">Cash</label>
+                <input class="input1" type="radio" id="Cash" name="Cash" value="Cash"> 
+            </div>
+                
+            <div class="input-label">
+                <label for="Credit card">Credit card</label>
+                <input class="input1" type="radio" id="Credit card" name="Credit card" value="Credit card">
+            </div>
+                
+            
+            <div class="input-label">
+                <label for="Debit card">Debit card</label>
+                <input class="input1" type="radio" id="Debitt card" name="Debit card" value="Debit card">
+            </div>
+            
+           </div>
+           <label for="texto"><br></label>
+            <textarea name="texto" id="" cols="30" rows="10"></textarea>
+            <br>
+            <div class="terms">
+                <input type="checkbox" id="accept" name="accept" value="accept">
+                <label for="accept">I accept terms and condition</label>
+                
+                <input type="submit" value="Enviar">
+            </div>
+           
+            
+        </form>
+    </div>
+    </main>
+    <footer>
+        <h4>Created by: Camilo Perez</h4>
+    </footer>
+</body>
+</html>
